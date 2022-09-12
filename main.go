@@ -13,7 +13,7 @@ import (
 var con = service.Currency{}
 
 func init() {
-	con.Server = "mongodb+srv://ramashankar:mathematics@cluster0.qstjmc9.mongodb.net/?retryWrites=true&w=majority"
+	con.Server = "mongodb+srv://ramashankar:<XXXXXXX>@cluster0.qstjmc9.mongodb.net/?retryWrites=true&w=majority"
 	con.Database = "currencyData"
 	con.Collection = "currency"
 
